@@ -1,0 +1,79 @@
+/* Style pour le widget principal Conversion */
+Conversion {
+    background-color: #f2f2f2;
+}
+
+/* Style pour les QTableWidget */
+QTableWidget {
+    border: 1px solid #ccc;
+    background-color: white;
+    selection-background-color: #ddf6ff;
+}
+
+/* Style pour les boutons */
+
+QPushButton {
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+QPushButton#convertButton {
+    background-color: #4CAF50;
+}
+
+QPushButton#resetButton {
+    background-color: #FF3333;
+}
+
+QPushButton#convertButton:hover {
+    background-color: #45a049;
+}
+QPushButton#resetButton:hover {
+    background-color: #FF0000;
+}
+
+/* Style pour les QLineEdit */
+QLineEdit {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+/* Style pour les QLabel */
+QLabel {
+    font-size: 16px;
+}
+
+/* Style pour les QComboBox */
+QComboBox {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px;
+}
+/* Style pour le QTableWidget */
+QTableView {
+    background-color: #f2f2f2;  /* Couleur de fond de la table */
+    border: 1px solid #d0d0d0;   /* Bordure autour de la table */
+}
+
+/* Style pour les en-t�tes de colonnes */
+QHeaderView::section {
+    background-color: #d9d9d9;  /* Couleur de fond des en-t�tes de colonnes */
+    border: 1px solid #b0b0b0;   /* Bordure autour des en-t�tes de colonnes */
+    padding: 4px;               /* Espacement interne des en-t�tes de colonnes */
+    font-size: 18px;            /* Taille de police des en-t�tes de colonnes */
+}
+
+/* Style pour les cellules */
+QTableWidget::item {
+    border: 1px solid #b0b0b0;   /* Bordure autour des cellules */
+    padding: 4px;               /* Espacement interne des cellules */
+    font-size: 12px;            /* Taille de police des cellules */
+}
+
+/* Style pour les cellules s�lectionn�es */
+QTableWidget::item:selected {
+    background-color: #43a0f7;  /* Couleur de fond des cellules s�lectionn�es */
+}
